@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0; 
+}
+
+header, footer {
+    background-color: #2196F3;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    min-height: 100vh; 
+}
+
+section {
+    background-color: #FFFF99;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+}
+
+h2 {
+    color: #333;
+}
+
+
